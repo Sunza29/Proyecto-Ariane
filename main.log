@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.25)  26 FEB 2025 19:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.25)  26 FEB 2025 20:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./ProyectoAriane.tex
-(ProyectoAriane.tex
+**./main.tex
+(main.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (C:\Users\USUARIO\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
@@ -24,6 +24,7 @@ File: size12.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
 \belowcaptionskip=\skip50
 \bibindent=\dimen141
 )
+(secciones/libraries.tex
 (C:\Users\USUARIO\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks17
@@ -152,7 +153,7 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \mathdisplay@stack=\toks25
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
-)
+))
 (C:\Users\USUARIO\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
 )
@@ -161,28 +162,28 @@ dftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count286
 \l__pdf_internal_box=\box54
-) (ProyectoAriane.aux
+) (main.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 )
-\openout1 = `ProyectoAriane.aux'.
+\openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Info: Redefining \. on input line 9.
-LaTeX Info: Redefining \% on input line 9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Info: Redefining \. on input line 5.
+LaTeX Info: Redefining \% on input line 5.
 
 (C:\Users\USUARIO\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.
 mkii
@@ -212,31 +213,39 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 <UVA-logo.png, id=1, 301.125pt x 301.125pt>
 File: UVA-logo.png Graphic file (type png)
 <use UVA-logo.png>
-Package pdftex.def Info: UVA-logo.png  used on input line 14.
+Package pdftex.def Info: UVA-logo.png  used on input line 10.
 (pdftex.def)             Requested size: 150.56212pt x 150.56212pt.
 
 
 [1
 
 {C:/Users/USUARIO/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./UVA-logo
-.png>] (ProyectoAriane.toc
+.png>] (main.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
 \tf@toc=\write3
-\openout3 = `ProyectoAriane.toc'.
+\openout3 = `main.toc'.
 
 
 
 [1
 
-]
+] (secciones/abstract.tex)
+
+[1] (main.bbl
 
 [1]
 
-[1]
+[2]
 
-[2] (ProyectoAriane.aux
+LaTeX Warning: Empty `thebibliography' environment on input line 3.
+
+)
+
+[3
+
+] (main.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 )
@@ -246,20 +255,20 @@ L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 3572 strings out of 473529
- 58269 string characters out of 5713805
- 465380 words of memory out of 5000000
- 26789 multiletter control sequences out of 15000+600000
+ 3597 strings out of 473529
+ 58832 string characters out of 5713805
+ 465408 words of memory out of 5000000
+ 26804 multiletter control sequences out of 15000+600000
  564670 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,5n,65p,863b,365s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 62i,5n,68p,880b,365s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/USUARIO/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
 m/cmbx12.pfb><C:/Users/USUARIO/AppData/Local/Programs/MiKTeX/fonts/type1/public
 /amsfonts/cm/cmr12.pfb><C:/Users/USUARIO/AppData/Local/Programs/MiKTeX/fonts/ty
 pe1/public/amsfonts/cm/cmr17.pfb>
-Output written on ProyectoAriane.pdf (5 pages, 100318 bytes).
+Output written on main.pdf (6 pages, 100749 bytes).
 PDF statistics:
- 35 PDF objects out of 1000 (max. 8388607)
+ 38 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

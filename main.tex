@@ -1,16 +1,11 @@
 \documentclass[12 pt]{report}
-\usepackage[utf8]{inputenc}
-\usepackage[spanish]{babel}
-\usepackage{graphicx}
-\usepackage{amsmath}
-\usepackage{setspace}
 \setcounter{tocdepth}{3} % para que ponga subsubsecciones en el indice
+\input{secciones/libraries}
 
 \begin{document}
 
 	\begin{titlepage}
 		\begin{center}
-			
 			\includegraphics [scale=0.5]{UVA-logo.png} \\
 			\vspace{15 pt}
 			\LARGE{UNIVERSIDAD VISCAYA DE LAS AMÉRICAS} \\
@@ -24,17 +19,15 @@
 			\large{nombre de alumnos}\\
 			\vspace{40 pt}
 			\large{MÉRIDA, YUCATÁN}\\
-			\large{xx de xx de 2025}
-			
+			\large{xx de xx de 2025}		
 		\end{center}
 	\end{titlepage}	
 	
-
 	\tableofcontents
 	\thispagestyle{empty}
 	
 	\begin{abstract}
-		fv
+		\input{secciones/abstract}
 	\end{abstract}
 	
 	
@@ -44,13 +37,13 @@
 	\section*{Objetivos} \addcontentsline{toc}{section}{Objetivos}
 	
 	\subsection*{Objetivo general} \addcontentsline{toc}{subsection}{Objetivo general}
-	Mejora de la aplicación del esquema de paquetes preventivos de la infeccion del sitio quirurgico para la seguridad del paciente y optimizar la calidad de la atención médica y enfermeria mediante la capacitación del personal y el fortalecimiento de las medidas preventivas.
+Mejorar la aplicación de los paquetes preventivos para la infección del sitio quirúrgico en el Hospital Elvia Carrillo Puerto, con el propósito de incrementar la seguridad del paciente y optimizar la calidad de la atención médica y de enfermería. Esto se logrará mediante la capacitación continua del personal de salud y el fortalecimiento de las medidas preventivas, asegurando una correcta implementación de las intervenciones basadas en evidencia científica.
 	
 	\subsubsection*{Objetivos específicos} \addcontentsline{toc}{subsubsection}{Objetivos específicos}
 	\begin{itemize}
-		\item Fortalecer la comunicación efectiva entre el personal medico y de enfermería. 
-		\item Implementar el uso de recursos informaticos y tecnológicos. 
-		\item Promover y garantizar la seguridad del paciente sometido a intervención quirúrgica.	
+		\item Fortalecer la comunicación efectiva entre el personal médico y de enfermería para asegurar una correcta implementación de los paquetes preventivos y mejorar la coordinación en la atención al paciente.
+		\item Implementar el uso de recursos informáticos y tecnológicos que faciliten el seguimiento y verificación de las medidas preventivas aplicadas en el ámbito quirúrgico.
+		\item Promover y garantizar la seguridad del paciente sometido a intervención quirúrgica mediante la actualización y capacitación continua del personal de salud en la aplicación de las intervenciones basadas en evidencia científica.	
 	\end{itemize}
 	
 	\section*{Materiales y métodos} \addcontentsline{toc}{section}{Materiales y métodos}
@@ -63,10 +56,10 @@
 	
 	\section*{Anexos} \addcontentsline{toc}{section}{Anexos}
 
-	\section*{Bibliografía} \addcontentsline{toc}{section}{Bibliografía}	
-	
 
-	
+	\bibliographystyle{apalike}
+	\bibliography{secciones/biblio}
+	\addcontentsline{toc}{section}{Bibliografía}
 	
 	
 	
